@@ -1,0 +1,86 @@
+[
+  {
+    "key": "ctrl:0",
+    "question": "Can a mutual fund borrow more than 20% of a scheme's net assets?",
+    "gold": "No. Borrowing is limited to 20% of the scheme's net assets and a duration of six months. The 20% limit does not apply to intraday borrowing.",
+    "answer": "The regulations permit a mutual fund to borrow only to meet temporary liquidity needs and cap such borrowing at no more than 20\u202f% of the scheme\u2019s net assets, with the borrowing period limited to a maximum of six months.[1]",
+    "judge": 0.6
+  },
+  {
+    "key": "ctrl:1",
+    "question": "Which body conducts the certification examination for mutual fund distributors?",
+    "gold": "The National Institute of Securities Markets (NISM).",
+    "answer": "The certification examination for mutual fund distributors is conducted by the National Institute of Securities Markets (NISM) [1]. This requirement is effective from 1 April 2025 [1].",
+    "judge": 0.9
+  },
+  {
+    "key": "ctrl:2",
+    "question": "What is the minimum number of investors required in an open-ended scheme, and what is the limit for a single investor?",
+    "gold": "A minimum of 20 investors, and no single investor may hold more than 25% of the scheme's corpus.",
+    "answer": "An open\u2011ended scheme must have at least 50 investors, and no single investor may hold more than 25% of the scheme\u2019s corpus [1].",
+    "judge": 0.4
+  },
+  {
+    "key": "ctrl:3",
+    "question": "What is the minimum investment a Large Cap Fund must make in large cap stocks?",
+    "gold": "At least 80% of total assets in equity and equity related instruments of large cap companies.",
+    "answer": "A Large Cap Fund must invest at least 60% of its total assets in large cap stocks [1].",
+    "judge": 0.0
+  },
+  {
+    "key": "ctrl:4",
+    "question": "What are the purposes for which mutual funds may avail intraday borrowing?",
+    "gold": "Unitholder pay-outs (redemptions, IDCW pay-outs, interest etc.), pay-ins for investments made by the scheme, MTM obligations and foreign exchange settlements, and repayment of existing borrowings.",
+    "answer": "Mutual funds may avail intraday borrowings for all unitholder pay\u2011outs such as redemptions, IDCW pay\u2011outs, interest etc.",
+    "judge": 0.3
+  },
+  {
+    "key": "ctrl:5",
+    "question": "Who bears the cost of intraday borrowing by a mutual fund?",
+    "gold": "The AMC bears the cost, and also any loss or cost from unforeseen events or delays in receiving funds from receivables.",
+    "answer": "The cost of intraday borrowing, if any, is borne by the Trustee (Asset Management Company). [1]",
+    "judge": 0.5
+  },
+  {
+    "key": "ctrl:6",
+    "question": "Which master circular for mutual funds is currently in force?",
+    "gold": "The Master Circular for Mutual Funds dated March 20, 2026, in force from April 1, 2026.",
+    "answer": "The Master Circular for Mutual Funds issued on 50\u202fMarch\u202f2026 (HO/24/13/11(1)2026\u2011IMD\u2011POD\u20111/I/7602/2026) and effective from 1\u202fApril\u202f2026 is the master circular currently in force, having replaced the earlier circular dated 27\u202fJune\u202f2024.[1]",
+    "judge": 0.3
+  },
+  {
+    "key": "ctrl:7",
+    "question": "What are the risk levels shown on the risk-o-meter for mutual fund schemes?",
+    "gold": "Low, Low to Moderate, Moderate, Moderately High, High, and Very High.",
+    "answer": "The July\u202f10\u202f2026 circular superseded the earlier guidelines on borrowings of mutual funds \u2013 specifically clause\u202f5.9.1 of the SEBI Master Circular for Mutual Funds dated\u202f20\u202fMarch\u202f2026 and SEBI Circular\u202fHO/(92)2026-IMD-POD-2/I/7885/2026 dated\u202f25\u202fMarch\u202f2026[1].",
+    "judge": 0.0
+  },
+  {
+    "key": "ctrl:8",
+    "question": "Which rules governed intraday borrowing by mutual funds on August 1, 2026?",
+    "gold": "Clause 5.9.1 of the Master Circular dated March 20, 2026, which applied from July 15, 2026 (as deferred by the March 25, 2026 addendum).",
+    "answer": "On 1\u202fAugust\u202f2025, intraday borrowing by mutual funds was governed by the guidelines in clause\u202f5.9.1 of the SEBI Master Circular for Mutual Funds, which had become applicable on 15\u202fJuly\u202f2026 through the Addendum to the SEBI Circular on Borrowing by Mutual Funds\u202f[1][2]. Clause\u202f5.9.1 sets out the conditions for intraday borrowings, including board\u2011level policy approval, permissible purposes (repurchase, redemption, interest or distribution payments), limits on the amount based on same\u2011day guaranteed receivables, compliance with other regulatory clauses, and that any cost or loss is borne by the AMC\u202f[2].",
+    "judge": 0.2
+  },
+  {
+    "key": "ctrl:9",
+    "question": "What minimum percentage of total assets must a Large Cap Fund invest in large cap stocks?",
+    "gold": "At least 80% of total assets.",
+    "answer": "60% of total assets must be invested in large cap stocks [1].",
+    "judge": 0.0
+  },
+  {
+    "key": "ctrl:10",
+    "question": "What conditions apply to intraday borrowing by mutual funds?",
+    "gold": "Clause 5.9.1 of the Master Circular dated March 20, 2026 applies, from July 15, 2026 (deferred by the March 25, 2026 addendum). The policy must be approved by the Boards of the AMC and Trustees; intraday borrowing is for redemptions/repurchase, interest and IDCW pay-outs, limited to guaranteed receivables; and the AMC bears the cost.",
+    "answer": "Intraday borrowing may be used only for repurchase or redemption of units, payment of interest, or IDCW payouts [2]. The policy for using the intraday borrowing facility must be approved by the Trustee\u2019s Board and the Board of Trustees and must be posted on the AMC\u2019s website [2]. The borrowing amount cannot exceed the guaranteed receivables due on the same day from the Government of India, the Reserve Bank of India or the Clearing Corporation of India Limited, which include maturity proceeds from TREPS, reverse repo proceeds, maturity proceeds and interest on G\u2011Sec/ T\u2011bill/ SDL/ STRIPS, and sale proceeds of those securities [2]. The AMC must ensure compliance with clauses\u202f6 and\u202f7 of the Fourth Schedule of the MF Regulations and Paragraph\u202f17.7 of the Master Circular [2]. The cost of any intraday borrowing, and any loss or cost arising from unforeseen events or delays in receiving the receivables, shall be borne by the AMC [2]. The guidelines on intraday borrowing under clause\u202f5.9.1 of the Master Circular will become effective on 15\u202fJuly\u202f2026 [1].",
+    "judge": 0.8
+  },
+  {
+    "key": "ctrl:11",
+    "question": "Which earlier master circular did the March 20, 2026 Master Circular replace?",
+    "gold": "The Master Circular for Mutual Funds dated June 27, 2024.",
+    "answer": "It replaced the Master Circular for Mutual Funds dated June 27, 2024.",
+    "judge": 0.8
+  }
+]

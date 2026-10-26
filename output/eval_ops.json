@@ -1,0 +1,23 @@
+{
+  "search without reranker": {
+    "p50": 0.09,
+    "p95": 0.11
+  },
+  "search with reranker": {
+    "p50": 0.96,
+    "p95": 1.16
+  },
+  "size source PDFs": 20.7,
+  "size chunks file": 6.8,
+  "size vector index": 32.0,
+  "end_to_end": {
+    "p50": 1.86,
+    "p95": 2.86,
+    "tokens": {
+      "prompt_tokens": 1552,
+      "completion_tokens": 290,
+      "total_tokens": 1842
+    },
+    "n": 30
+  }
+}

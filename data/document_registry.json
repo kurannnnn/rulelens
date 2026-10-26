@@ -1,0 +1,178 @@
+{
+  "_notes": [
+    "Status is computed from dates and links, never from upload order.",
+    "Fields marked verify_supersession=true are inferred (each new master circular replaces the previous edition); confirm in each document's own text.",
+    "Today's date should be passed in when computing 'current' so future effective dates (e.g. 2026-09-01) work correctly."
+  ],
+  "documents": [
+    {
+      "doc_id": "MF-REG-1996",
+      "title": "SEBI (Mutual Funds) Regulations, 1996",
+      "type": "regulation",
+      "file": "1996-12-09_SEBI-MF-Regulations-1996.pdf",
+      "pages": 117,
+      "issue_date": "1996-12-09",
+      "effective_date": "1996-12-09",
+      "supersedes": [],
+      "superseded_by": "MF-REG-2026",
+      "verify_supersession": false,
+      "load_stage": "initial",
+      "clause_links": []
+    },
+    {
+      "doc_id": "MF-REG-2026",
+      "title": "SEBI (Mutual Funds) Regulations, 2026",
+      "type": "regulation",
+      "file": "2026-01-14_SEBI-MF-Regulations-2026_English-only.pdf",
+      "original_file": "Regulations_2026.pdf (bilingual, 207 pages; English = pages 122-207)",
+      "pages": 86,
+      "issue_date": "2026-01-14",
+      "effective_date": "2026-04-01",
+      "supersedes": [
+        "MF-REG-1996"
+      ],
+      "superseded_by": null,
+      "verify_supersession": false,
+      "load_stage": "initial",
+      "clause_links": [],
+      "notes": "Regulation 42 covers borrowing and lending by mutual funds. Amended by gazette CG-MH-E-07072026-274229 dated 2026-07-03 (amendment text not loaded)."
+    },
+    {
+      "doc_id": "MF-MC-2018",
+      "title": "Master Circular for Mutual Funds (SEBI/HO/IMD/DF5/CIR/P/2018/109)",
+      "type": "master_circular",
+      "file": "2018-07-10_Master-Circular-Mutual-Funds.pdf",
+      "pages": 236,
+      "issue_date": "2018-07-10",
+      "effective_date": "2018-07-10",
+      "supersedes": [],
+      "superseded_by": "MF-MC-2020",
+      "verify_supersession": true,
+      "load_stage": "initial"
+    },
+    {
+      "doc_id": "MF-MC-2020",
+      "title": "Master Circular for Mutual Funds (SEBI/HO/IMD/DF2/CIR/P/2020/156)",
+      "type": "master_circular",
+      "file": "2020-08-24_Master-Circular-Mutual-Funds.pdf",
+      "pages": 273,
+      "issue_date": "2020-08-24",
+      "effective_date": "2020-08-24",
+      "supersedes": [
+        "MF-MC-2018"
+      ],
+      "superseded_by": "MF-MC-2023",
+      "verify_supersession": true,
+      "load_stage": "initial"
+    },
+    {
+      "doc_id": "MF-MC-2023",
+      "title": "Master Circular for Mutual Funds (SEBI/HO/IMD/IMD-PoD-1/P/CIR/2023/74)",
+      "type": "master_circular",
+      "file": "2023-05-19_Master-Circular-Mutual-Funds.pdf",
+      "pages": 371,
+      "issue_date": "2023-05-19",
+      "effective_date": "2023-05-19",
+      "supersedes": [
+        "MF-MC-2020"
+      ],
+      "superseded_by": "MF-MC-2024",
+      "verify_supersession": true,
+      "load_stage": "initial"
+    },
+    {
+      "doc_id": "MF-MC-2024",
+      "title": "Master Circular for Mutual Funds (SEBI/HO/IMD/IMD-PoD-1/P/CIR/2024/90)",
+      "type": "master_circular",
+      "file": "2024-06-27_Master-Circular-Mutual-Funds.pdf",
+      "pages": 828,
+      "issue_date": "2024-06-27",
+      "effective_date": "2024-06-27",
+      "supersedes": [
+        "MF-MC-2023"
+      ],
+      "superseded_by": "MF-MC-2026",
+      "verify_supersession": true,
+      "load_stage": "initial"
+    },
+    {
+      "doc_id": "MF-MC-2026",
+      "title": "Master Circular for Mutual Funds (HO/24/13/11(1)2026-IMD-POD-1/I/7602/2026)",
+      "type": "master_circular",
+      "file": "2026-03-20_Master-Circular-Mutual-Funds.pdf",
+      "pages": 748,
+      "issue_date": "2026-03-20",
+      "effective_date": "2026-04-01",
+      "supersedes": [
+        "MF-MC-2024"
+      ],
+      "superseded_by": null,
+      "verify_supersession": false,
+      "load_stage": "initial",
+      "notes": "Effective date 2026-04-01 comes from secondary sources; confirm in the document."
+    },
+    {
+      "doc_id": "MF-CIR-2026-03-25",
+      "title": "Addendum to SEBI Circular on Borrowing by Mutual Funds (HO/(92)2026-IMD-POD-2/I/7885/2026)",
+      "type": "circular",
+      "file": "2026-03-25_Circular-Addendum-Borrowing-by-MFs.pdf",
+      "pages": 2,
+      "issue_date": "2026-03-25",
+      "effective_date": "2026-07-15",
+      "supersedes": [],
+      "superseded_by": "MF-CIR-2026-07-10",
+      "verify_supersession": false,
+      "load_stage": "initial",
+      "clause_links": [
+        {
+          "target_doc": "MF-MC-2026",
+          "target_clause": "5.9.1",
+          "relation": "changes_effective_date",
+          "detail": "Intraday borrowing guidelines (cl. 5.9.1) now apply from 2026-07-15"
+        }
+      ],
+      "notes": "Refers to the Mar 13, 2026 circular (HO/(92)2026-IMD-POD-2/I/6961/2026), not loaded; its content is already inside MC-2026 cl. 5.9."
+    },
+    {
+      "doc_id": "MF-CIR-2026-07-10",
+      "title": "Intraday borrowing facility availed by mutual funds (HO/(92)2026-IMD-POD-2/I/16006/2026)",
+      "type": "circular",
+      "file": "2026-07-10_Circular-Intraday-Borrowing-by-MFs.pdf",
+      "pages": 3,
+      "issue_date": "2026-07-10",
+      "effective_date": "2026-09-01",
+      "supersedes": [
+        "MF-CIR-2026-03-25"
+      ],
+      "superseded_by": null,
+      "verify_supersession": false,
+      "load_stage": "held_back_for_update_test",
+      "clause_links": [
+        {
+          "target_doc": "MF-MC-2026",
+          "target_clause": "5.9.1",
+          "relation": "supersedes",
+          "detail": "Replaces intraday borrowing guidelines in cl. 5.9.1 and the Mar 25 addendum"
+        },
+        {
+          "target_doc": "MF-MC-2026",
+          "target_clause": "11.10",
+          "relation": "references",
+          "detail": "Cost of intraday borrowing borne by the AMC"
+        },
+        {
+          "target_doc": "MF-MC-2026",
+          "target_clause": "17.7",
+          "relation": "references",
+          "detail": "AMCs must comply"
+        },
+        {
+          "target_doc": "MF-REG-2026",
+          "target_clause": "Reg 42(1)",
+          "relation": "references",
+          "detail": "Permitted purposes of borrowing"
+        }
+      ]
+    }
+  ]
+}

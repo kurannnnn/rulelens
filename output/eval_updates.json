@@ -1,0 +1,97 @@
+[
+  {
+    "test": "Q1 before upload: old rule found, new circular absent",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Q1 after upload: new circular found, old 5.9.1 and addendum gone",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Q2 before upload: old rule found, new circular absent",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Q2 after upload: new circular found, old 5.9.1 and addendum gone",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Q3 before upload: old rule found, new circular absent",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Q3 after upload: new circular found, old 5.9.1 and addendum gone",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "As of 2026-08-01 (before Sep 1): old rule still applies",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "As of today: new rule applies",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Today, without 2023: 2023 circular is never used for a current-rule question",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Today, with 2023 uploaded late: 2023 circular is never used for a current-rule question",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "2023 master circular marked superseded today",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "2026 master circular stays current",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "As of 2023-12-01 the 2023 circular is current",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "As of 2023-12-01, search can use the 2023 circular",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "registry order: no replaced document is ever marked current",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "reversed: no replaced document is ever marked current",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "shuffled: no replaced document is ever marked current",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Final statuses identical for all orders",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "test": "Search results identical for all orders",
+    "pass": true,
+    "detail": ""
+  }
+]

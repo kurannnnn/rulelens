@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "id": "C01",
+      "answer": "Mutual funds may avail intraday borrowings for all unitholder pay\u2011outs such as redemptions, IDCW pay\u2011outs, interest etc. [1] They may also use intraday borrowings for pay\u2011in with respect to investments made by the scheme. [1] Borrowings can be used to meet mark\u2011to\u2011market obligations and foreign exchange settlements. [2] Finally, intraday borrowings may be used for repayment of existing borrowings. [2]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "C02",
+      "answer": "The intraday borrowing conditions apply from September 1, 2026.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "C03",
+      "answer": "The cost of intraday borrowing, if any, is borne by the AMC (Asset Management Company). [1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.5
+    },
+    {
+      "id": "C05",
+      "answer": "No, a mutual fund may not borrow more than twenty per cent of the net assets of a scheme; any borrowing must be limited to that threshold unless it is intraday borrowing, for which the twenty\u2011per\u2011cent limit does not apply subject to conditions specified by the board [1].",
+      "citation_ok": true,
+      "faithfulness": 0.6666666666666666,
+      "answer_relevance": 1.0,
+      "correctness": 0.8
+    },
+    {
+      "id": "C06",
+      "answer": "The risk\u2011ometer displays six risk levels: Low risk (Irish Green), Low to Moderate risk (Chartreuse), Moderate risk (Neon Yellow), Moderately High risk (Caramel), High risk (Dark Orange), and Very High risk (Red) [1].",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "C07",
+      "answer": "A Large Cap Fund must invest at least 80% of its total assets in large\u2011cap stocks[1].",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.9
+    },
+    {
+      "id": "C08",
+      "answer": "The open\u2011ended scheme must have at least 20 investors, and no single investor may hold more than 25% of the scheme\u2019s corpus.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "C09",
+      "answer": "The certification examination for mutual fund distributors is conducted by the National Institute of Securities Markets (NISM) [1]. This requirement is effective from 1 April 2026 [1].",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.8
+    },
+    {
+      "id": "C10",
+      "answer": "The Master Circular for Mutual Funds issued on 20\u202fMarch\u202f2026 (HO/24/13/11(1)2026\u2011IMD\u2011POD\u20111/I/7602/2026) is the one currently in force, having come into effect on 1\u202fApril\u202f2026 and replacing the earlier circular dated 27\u202fJune\u202f2024.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "P04",
+      "answer": "The Master Circular for Mutual Funds that was in force in January\u202f2021 is SEBI/HO/IMD/DF2/CIR/P/2020/156, issued on 24\u202fAugust\u202f2020 and effective from that date\u30101\u3011.",
+      "citation_ok": false,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "P05",
+      "answer": "The regulations permit a mutual fund to borrow only to meet temporary liquidity needs and cap such borrowing at no more than 20\u202f% of the scheme\u2019s net assets, with the borrowing period limited to a maximum of six months.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "P08",
+      "answer": "80% of total assets must be invested in large cap stocks [1].",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.4
+    },
+    {
+      "id": "W01",
+      "answer": "The July\u202f10\u202f2026 circular superseded the earlier guidelines on borrowings of mutual funds \u2013 specifically clause\u202f5.9.1 of the SEBI Master Circular for Mutual Funds dated\u202f20\u202fMarch\u202f2026 and SEBI Circular\u202fHO/(92)2026-IMD-POD-2/I/7885/2026 dated\u202f25\u202fMarch\u202f2026[1].",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 1.0
+    },
+    {
+      "id": "W04",
+      "answer": "The July\u202f3\u202f2026 Gazette Notification CG\u2011MH\u2011E\u201107072026\u2011274229 amended the SEBI (Mutual Funds) Regulations,\u202f2026 to allow mutual funds to undertake intraday borrowings for various purposes.",
+      "citation_ok": false,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.7
+    },
+    {
+      "id": "W05",
+      "answer": "The SEBI (Mutual Funds) Regulations, 2026 replaced the SEBI (Mutual Funds) Regulations, 1996.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.8
+    },
+    {
+      "id": "W06",
+      "answer": "It replaced the Master Circular for Mutual Funds dated June\u202f27,\u202f2024.[1]",
+      "citation_ok": true,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "correctness": 0.9
+    }
+  ],
+  "refusals": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

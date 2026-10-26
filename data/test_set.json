@@ -1,0 +1,586 @@
+[
+  {
+    "id": "C01",
+    "type": "current",
+    "state": "full",
+    "as_of": null,
+    "question": "What are the purposes for which mutual funds may avail intraday borrowing?",
+    "gold_answer": "Unitholder pay-outs (redemptions, IDCW pay-outs, interest etc.), pay-ins for investments made by the scheme, MTM obligations and foreign exchange settlements, and repayment of existing borrowings.",
+    "expected_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "forbidden_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "where_to_check": "Jul 10 2026 circular, clause 2.1 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-07-10#00004",
+      "MF-CIR-2026-07-10#00005"
+    ]
+  },
+  {
+    "id": "C02",
+    "type": "current",
+    "state": "full",
+    "as_of": null,
+    "question": "From what date do the intraday borrowing conditions in the July 10, 2026 circular apply?",
+    "gold_answer": "September 1, 2026.",
+    "expected_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "forbidden_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "where_to_check": "Jul 10 2026 circular, para 3 (p3)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-07-10#00012"
+    ]
+  },
+  {
+    "id": "C03",
+    "type": "current",
+    "state": "full",
+    "as_of": null,
+    "question": "Who bears the cost of intraday borrowing by a mutual fund?",
+    "gold_answer": "The AMC bears the cost, and also any loss or cost from unforeseen events or delays in receiving funds from receivables.",
+    "expected_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "forbidden_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "where_to_check": "Jul 10 2026 circular, clause 2.7 (p3)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-07-10#00011"
+    ]
+  },
+  {
+    "id": "C04",
+    "type": "current",
+    "state": "base",
+    "as_of": null,
+    "question": "What conditions apply to intraday borrowing by mutual funds?",
+    "gold_answer": "Clause 5.9.1 of the Master Circular dated March 20, 2026 applies, from July 15, 2026 (deferred by the March 25, 2026 addendum). The policy must be approved by the Boards of the AMC and Trustees; intraday borrowing is for redemptions/repurchase, interest and IDCW pay-outs, limited to guaranteed receivables; and the AMC bears the cost.",
+    "expected_docs": [
+      "MF-MC-2026",
+      "MF-CIR-2026-03-25"
+    ],
+    "forbidden_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "where_to_check": "Master Circular 2026 cl. 5.9.1 (p83-84); addendum para 3",
+    "note": "Before-state: Jul 10 circular NOT loaded. Gold widened to include the main conditions.",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-03-25#00003",
+      "MF-MC-2026#00192"
+    ]
+  },
+  {
+    "id": "C05",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "Can a mutual fund borrow more than 20% of a scheme's net assets?",
+    "gold_answer": "No. Borrowing is limited to 20% of the scheme's net assets and a duration of six months. The 20% limit does not apply to intraday borrowing.",
+    "expected_docs": [
+      "MF-REG-2026"
+    ],
+    "forbidden_docs": [
+      "MF-REG-1996"
+    ],
+    "where_to_check": "Regulations 2026, reg 42(1)-(2) (p36)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-REG-2026#00073"
+    ]
+  },
+  {
+    "id": "C06",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "What are the risk levels shown on the risk-o-meter for mutual fund schemes?",
+    "gold_answer": "Low, Low to Moderate, Moderate, Moderately High, High, and Very High.",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Master Circular 2026, risk-o-meter colours (p95)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00232"
+    ]
+  },
+  {
+    "id": "C07",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "What is the minimum investment a Large Cap Fund must make in large cap stocks?",
+    "gold_answer": "At least 80% of total assets in equity and equity related instruments of large cap companies.",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Master Circular 2026, scheme categorisation table (p29)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00071"
+    ]
+  },
+  {
+    "id": "C08",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "What is the minimum number of investors required in an open-ended scheme, and what is the limit for a single investor?",
+    "gold_answer": "A minimum of 20 investors, and no single investor may hold more than 25% of the scheme's corpus.",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Master Circular 2026, para 7.19.1 (p143)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00371",
+      "MF-MC-2026#00373"
+    ]
+  },
+  {
+    "id": "C09",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "Which body conducts the certification examination for mutual fund distributors?",
+    "gold_answer": "The National Institute of Securities Markets (NISM).",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Master Circular 2026, p252",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00699"
+    ]
+  },
+  {
+    "id": "C10",
+    "type": "current",
+    "state": "any",
+    "as_of": null,
+    "question": "Which master circular for mutual funds is currently in force?",
+    "gold_answer": "The Master Circular for Mutual Funds dated March 20, 2026, in force from April 1, 2026.",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [
+      "MF-MC-2024"
+    ],
+    "where_to_check": "Master Circular 2026, p1-3",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00010"
+    ]
+  },
+  {
+    "id": "P01",
+    "type": "past",
+    "state": "any",
+    "as_of": "2025-06-01",
+    "question": "Which SEBI mutual fund regulations were in force in June 2025?",
+    "gold_answer": "The SEBI (Mutual Funds) Regulations, 1996.",
+    "expected_docs": [
+      "MF-REG-1996"
+    ],
+    "forbidden_docs": [
+      "MF-REG-2026"
+    ],
+    "where_to_check": "Regulations 1996 (replaced by 2026 regs); reg 85(1) repeals 1996 regs from Apr 1 2026",
+    "note": "Gold = title page of the document that applied on as_of (later documents are not yet in force).",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-REG-1996#00020"
+    ],
+    "registry_only": true
+  },
+  {
+    "id": "P02",
+    "type": "past",
+    "state": "any",
+    "as_of": "2025-06-01",
+    "question": "Which master circular for mutual funds applied in June 2025?",
+    "gold_answer": "The Master Circular dated June 27, 2024.",
+    "expected_docs": [
+      "MF-MC-2024"
+    ],
+    "forbidden_docs": [
+      "MF-MC-2026"
+    ],
+    "where_to_check": "Master Circular 2024, p1",
+    "note": "Gold = title page of the document that applied on as_of (later documents are not yet in force).",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2024#00001"
+    ],
+    "registry_only": true
+  },
+  {
+    "id": "P03",
+    "type": "past",
+    "state": "any",
+    "as_of": "2023-12-01",
+    "question": "Which master circular for mutual funds applied in December 2023?",
+    "gold_answer": "The Master Circular dated May 19, 2023.",
+    "expected_docs": [
+      "MF-MC-2023"
+    ],
+    "forbidden_docs": [
+      "MF-MC-2024",
+      "MF-MC-2026"
+    ],
+    "where_to_check": "Master Circular 2023, p1",
+    "note": "Gold = title page of the document that applied on as_of (later documents are not yet in force).",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2023#00001"
+    ],
+    "registry_only": true
+  },
+  {
+    "id": "P04",
+    "type": "past",
+    "state": "any",
+    "as_of": "2021-01-01",
+    "question": "Which master circular for mutual funds applied in January 2021?",
+    "gold_answer": "The Master Circular dated August 24, 2020.",
+    "expected_docs": [
+      "MF-MC-2020"
+    ],
+    "forbidden_docs": [
+      "MF-MC-2023",
+      "MF-MC-2024",
+      "MF-MC-2026"
+    ],
+    "where_to_check": "Master Circular 2020, p1",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2020#00001"
+    ]
+  },
+  {
+    "id": "P05",
+    "type": "past",
+    "state": "any",
+    "as_of": "2025-06-01",
+    "question": "What limit and duration applied to mutual fund borrowing in June 2025?",
+    "gold_answer": "Not more than 20% of the scheme's net assets, and for not more than six months.",
+    "expected_docs": [
+      "MF-REG-1996"
+    ],
+    "forbidden_docs": [
+      "MF-REG-2026"
+    ],
+    "where_to_check": "Regulations 1996, reg 44(2) (p38)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-REG-1996#00091"
+    ]
+  },
+  {
+    "id": "P06",
+    "type": "past",
+    "state": "base",
+    "as_of": "2026-08-01",
+    "question": "Which rules governed intraday borrowing by mutual funds on August 1, 2026?",
+    "gold_answer": "Clause 5.9.1 of the Master Circular dated March 20, 2026, which applied from July 15, 2026 (as deferred by the March 25, 2026 addendum).",
+    "expected_docs": [
+      "MF-MC-2026",
+      "MF-CIR-2026-03-25"
+    ],
+    "forbidden_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "where_to_check": "Master Circular 2026 cl. 5.9.1; addendum para 3",
+    "note": "Jul 10 circular starts Sep 1, so it must not be used on Aug 1.",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-03-25#00003",
+      "MF-MC-2026#00192"
+    ]
+  },
+  {
+    "id": "P07",
+    "type": "past",
+    "state": "base",
+    "as_of": "2026-06-01",
+    "question": "Were the intraday borrowing guidelines in clause 5.9.1 of the Master Circular in effect on June 1, 2026?",
+    "gold_answer": "No. The March 25, 2026 addendum deferred their applicability to July 15, 2026.",
+    "expected_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Addendum Mar 25 2026, para 3 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-03-25#00003"
+    ]
+  },
+  {
+    "id": "P08",
+    "type": "past",
+    "state": "any",
+    "as_of": "2023-06-01",
+    "question": "What minimum percentage of total assets must a Large Cap Fund invest in large cap stocks?",
+    "gold_answer": "At least 80% of total assets.",
+    "expected_docs": [
+      "MF-MC-2023"
+    ],
+    "forbidden_docs": [
+      "MF-MC-2026"
+    ],
+    "where_to_check": "Master Circular 2023 (p30)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2023#00082"
+    ]
+  },
+  {
+    "id": "W01",
+    "type": "changed",
+    "state": "full",
+    "as_of": null,
+    "question": "What did the July 10, 2026 circular on intraday borrowing replace?",
+    "gold_answer": "It replaced the guidelines in clause 5.9.1 of the Master Circular dated March 20, 2026 and the March 25, 2026 circular (addendum).",
+    "expected_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Jul 10 2026 circular, para 2 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-07-10#00003"
+    ]
+  },
+  {
+    "id": "W02",
+    "type": "changed",
+    "state": "base",
+    "as_of": null,
+    "question": "What did the March 25, 2026 addendum change?",
+    "gold_answer": "It deferred the applicability of the intraday borrowing guidelines (clause 5.9.1 of the master circular) to July 15, 2026.",
+    "expected_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Addendum Mar 25 2026, para 3 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-03-25#00003"
+    ]
+  },
+  {
+    "id": "W03",
+    "type": "changed",
+    "state": "base",
+    "as_of": null,
+    "question": "Why was the March 25, 2026 addendum issued?",
+    "gold_answer": "To address operational challenges raised by AMCs with respect to intraday borrowings by mutual funds.",
+    "expected_docs": [
+      "MF-CIR-2026-03-25"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Addendum Mar 25 2026, para 3 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-03-25#00003"
+    ]
+  },
+  {
+    "id": "W04",
+    "type": "changed",
+    "state": "full",
+    "as_of": null,
+    "question": "What did the July 3, 2026 gazette notification amend?",
+    "gold_answer": "It amended the SEBI (Mutual Funds) Regulations, 2026 to permit intraday borrowings by mutual funds for the purposes specified in the July 10, 2026 circular.",
+    "expected_docs": [
+      "MF-CIR-2026-07-10"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Jul 10 2026 circular, para 1 (p1)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-CIR-2026-07-10#00002"
+    ]
+  },
+  {
+    "id": "W05",
+    "type": "changed",
+    "state": "any",
+    "as_of": null,
+    "question": "Which regulations replaced the SEBI (Mutual Funds) Regulations, 1996?",
+    "gold_answer": "The SEBI (Mutual Funds) Regulations, 2026, which came into force on April 1, 2026 and repealed the 1996 Regulations.",
+    "expected_docs": [
+      "MF-REG-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Regulations 2026, reg 1(2) (p1) and reg 85(1) (p66)",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-REG-2026#00136"
+    ]
+  },
+  {
+    "id": "W06",
+    "type": "changed",
+    "state": "any",
+    "as_of": null,
+    "question": "Which earlier master circular did the March 20, 2026 Master Circular replace?",
+    "gold_answer": "The Master Circular for Mutual Funds dated June 27, 2024.",
+    "expected_docs": [
+      "MF-MC-2026"
+    ],
+    "forbidden_docs": [],
+    "where_to_check": "Master Circular 2026, paras 1-8 (p1-3): in force Apr 1, 2026; refers to Master Circular of Jun 27, 2024",
+    "note": "",
+    "verified": true,
+    "verified_by": "claude checked against PDF text; skim before final use",
+    "gold_chunk_ids": [
+      "MF-MC-2026#00010"
+    ]
+  },
+  {
+    "id": "U01",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "What is the capital gains tax rate on equity mutual funds?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Docs mention 'capital gains' only in sample return tables (p631, p670), not tax rates. Confirm.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  },
+  {
+    "id": "U02",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "What is today's NAV of HDFC Flexi Cap Fund?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Check the PDFs do not actually answer this.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  },
+  {
+    "id": "U03",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "Which mutual fund will give the highest returns next year?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Check the PDFs do not actually answer this.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  },
+  {
+    "id": "U04",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "What is the current RBI repo rate?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Check the PDFs do not actually answer this.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  },
+  {
+    "id": "U05",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "How many people in India invest in mutual funds?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Check the PDFs do not actually answer this.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  },
+  {
+    "id": "U06",
+    "type": "not_in_docs",
+    "state": "any",
+    "as_of": null,
+    "question": "Who is the current chairman of SEBI?",
+    "gold_answer": "NOT_FOUND (the documents do not contain this).",
+    "expected_docs": [],
+    "forbidden_docs": [],
+    "where_to_check": "Should be refused",
+    "note": "Check the PDFs do not actually answer this.",
+    "verified": true,
+    "verified_by": "claude keyword search found no answer in the 9 PDFs",
+    "gold_chunk_ids": []
+  }
+]
