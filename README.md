@@ -1,4 +1,4 @@
-# SEBI Mutual Fund RAG + Evaluation
+# RuleLens: Version-Aware RAG for SEBI Mutual Fund Regulation
 
 A RAG system over SEBI mutual fund regulation that **answers with the current rule** and updates when a new circular replaces an old one. The main focus is **evaluation**: every layer (retriever, generator, full pipeline, updates, safety, speed, judge) is tested separately.
 
@@ -111,6 +111,21 @@ The original judge was too strict (called 14 of 33 correct answers "partly" beca
 - Judge agreement is only moderate (kappa 0.45).
 - Tables and footnote numbers extract messily from PDFs, and chunks carry no chapter headings.
 - Skipped on purpose (cost vs signal): chunk-size comparison, context-relevance metric, toxicity and PII metrics.
+
+## Adding a new document
+
+1. Rename the PDF to `date_title.pdf` (e.g. `2026-07-10_circular.pdf`) and put it in `data/pdfs/`.
+2. Add an entry in `data/document_registry.json` with: `type`, `issue_date`, `effective_date`, `superseded_by` (if it replaces a whole document), `clause_links` (target_doc, target_clause, supersedes) and `approved`. Use `approved: false` to keep it as pending_review until checked.
+3. Add its doc ID to `data/loaded_docs.json`.
+4. Rebuild:
+
+```
+python src/extract_pages.py
+python src/chunk_clauses.py
+python src/build_index.py
+```
+
+Status (current, superseded, not_effective) is worked out from dates and replace links, so upload order does not matter.
 
 ## Run it
 
