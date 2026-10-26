@@ -112,6 +112,51 @@ The original judge was too strict (called 14 of 33 correct answers "partly" beca
 - Tables and footnote numbers extract messily from PDFs, and chunks carry no chapter headings.
 - Skipped on purpose (cost vs signal): chunk-size comparison, context-relevance metric, toxicity and PII metrics.
 
+## Screenshots
+
+**Demo**
+
+![Cited answer using the current Jul 10 rule](screenshots/01_demo_cited_answer.png)
+*A cited answer using the current rule (Jul 10 circular).*
+
+![As-of date answer and refusal](screenshots/02_demo_asof_and_refusal.png)
+*Answer as of a past date, and "Not found in the loaded documents" for a question outside the documents.*
+
+**Headline: version tracking on vs off**
+
+![RAG with status filter on](screenshots/03_rag_filter_on_and_retriever.png)
+*Filter ON: 0/16 outdated answers, 16/16 valid citations, 6/6 refusals. Retriever recall@5 0.88.*
+
+![RAG with status filter off](screenshots/04_rag_filter_off.png)
+*Filter OFF: 6/16 outdated answers, 10/16 valid citations.*
+
+**Updates and safety**
+
+![Update tests](screenshots/05_update_tests_19_of_19.png)
+*19/19 update tests passed (forward update, late backfill, upload order).*
+
+![Safety tests](screenshots/06_safety.png)
+*Fake circular worked 4/4 without the approval gate and 0/4 with it. Prompt injection worked 1/5.*
+
+**Generator bug fix**
+
+![Generator before the fix](screenshots/07_generator_before_fix.png)
+*Before: the model cited sources that did not exist (valid citations 2/3).*
+
+![Generator after the fix](screenshots/08_generator_after_fix.png)
+*After the prompt fix: valid citations 3/3.*
+
+**Speed and judge**
+
+![Speed, tokens and size](screenshots/09_speed_tokens_size.png)
+*Full cited answer p50 1.86 s, about 1,842 tokens per question.*
+
+![Judge calibration, original rubric](screenshots/10_judge_original_kappa_0.30.png)
+*Judge vs my labels, original rubric: 57% agreement, kappa 0.30.*
+
+![Judge calibration, v2 rubric](screenshots/11_judge_v2_kappa_0.45.png)
+*Rewritten rubric: 77% agreement, kappa 0.45 (tuned on the same 44 labels, so optimistic).*
+
 ## Adding a new document
 
 1. Rename the PDF to `date_title.pdf` (e.g. `2026-07-10_circular.pdf`) and put it in `data/pdfs/`.
