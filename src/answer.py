@@ -63,7 +63,7 @@ def ask_llm(question, chunks, today):
     body = {
         "model": MODEL,
         "temperature": 0,
-        "max_tokens": 800,
+        "max_tokens": 1500,
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT.format(today=today)},
             {"role": "user",

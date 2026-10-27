@@ -115,6 +115,7 @@ The original judge was too strict (called 14 of 33 correct answers "partly" beca
 ## Screenshots
 
 **Demo**
+![API demo](screenshots/demo.gif)
 
 ![Cited answer using the current Jul 10 rule](screenshots/01_demo_cited_answer.png)
 *A cited answer using the current rule (Jul 10 circular).*
@@ -194,3 +195,34 @@ python src/eval_updates.py
 python src/eval_safety.py
 python src/eval_ops.py
 ```
+
+## API
+
+A small FastAPI server wraps the pipeline. Run from the project root:
+
+```
+pip install fastapi uvicorn python-multipart
+python -m uvicorn src.api:app --reload
+```
+
+Interactive docs: http://127.0.0.1:8000/docs
+
+| Endpoint | What it does |
+|---|---|
+| `POST /ask` | Question + optional `as_of` date (`YYYY-MM-DD`). Returns a cited answer from the rules that applied on that date, or "Not found in the loaded documents." |
+| `POST /upload` | Upload a new circular (PDF) with optional `doc_type`, `issue_date`, `effective_date`. It is saved as `pending_review` (`approved: false`) and is not used for answers until a human approves it and the index is rebuilt. |
+| `GET /health` | Shows the API is up and how many documents are loaded. |
+
+Ask a question:
+
+```
+curl.exe -X POST http://127.0.0.1:8000/ask -H "Content-Type: application/json" -d "{\"question\":\"Can AMCs charge GST on investment and advisory fees on top of TER?\",\"as_of\":\"2025-01-01\"}"
+```
+
+Upload a circular:
+
+```
+curl.exe -X POST http://127.0.0.1:8000/upload -F "file=@2026-09-01_circular.pdf" -F "issue_date=2026-09-01" -F "effective_date=2026-10-01"
+```
+
+The upload endpoint only registers the file. To make an approved circular searchable, set `approved: true` in `data/document_registry.json` and rebuild the index (see "Adding a new document").
