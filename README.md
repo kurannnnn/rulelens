@@ -119,8 +119,11 @@ The original judge was too strict (called 14 of 33 correct answers "partly" beca
 ![Cited answer using the current Jul 10 rule](screenshots/01_demo_cited_answer.png)
 *A cited answer using the current rule (Jul 10 circular).*
 
-![As-of date answer and refusal](screenshots/02_demo_asof_and_refusal.png)
-*Answer as of a past date, and "Not found in the loaded documents" for a question outside the documents.*
+![As-of date answer](screenshots/02a_demo_asof_answer.png)
+*Answer as of a past date (the old 5.9.1 rule still applies before Sep 1).*
+
+![Refusal](screenshots/02b_demo_refusal.png)
+*"Not found in the loaded documents" for a question outside the documents.*
 
 **Headline: version tracking on vs off**
 
@@ -174,7 +177,10 @@ Status (current, superseded, not_effective) is worked out from dates and replace
 
 ## Run it
 
-Run from the project root (`SEBI-RAG/`), with `LLM_API_KEY`, `LLM_MODEL`, `JUDGE_MODEL` set in `.env`.
+Tested on Windows with Python 3.14. Run from the project root.
+
+1. Install packages: `pip install -r requirements.txt`
+2. Copy `.env.example` to `.env` and fill in your Groq key and model names.
 
 ```
 python src/extract_pages.py
