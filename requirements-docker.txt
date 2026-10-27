@@ -1,0 +1,8 @@
+fastembed==0.9.0
+qdrant-client==1.19.1
+rank-bm25==0.2.2
+python-dotenv==1.2.4
+httpx
+fastapi
+uvicorn
+python-multipart

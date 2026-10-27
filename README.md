@@ -196,6 +196,7 @@ python src/eval_safety.py
 python src/eval_ops.py
 ```
 
+
 ## API
 
 A small FastAPI server wraps the pipeline. Run from the project root:
@@ -226,3 +227,15 @@ curl.exe -X POST http://127.0.0.1:8000/upload -F "file=@2026-09-01_circular.pdf"
 ```
 
 The upload endpoint only registers the file. To make an approved circular searchable, set `approved: true` in `data/document_registry.json` and rebuild the index (see "Adding a new document").
+
+
+## Docker
+
+Run the API with one command. You need Docker, plus a `.env` file with `LLM_API_KEY`, `LLM_MODEL` and `JUDGE_MODEL` (no quotes around the values).
+
+```
+docker build -t rulelens .
+docker run --env-file .env -p 8000:8000 rulelens
+```
+
+Then open http://127.0.0.1:8000/docs. The search index and models are built into the image at build time, and your API key is never copied into it. Files uploaded through `/upload` live inside the container and are lost when it stops.
