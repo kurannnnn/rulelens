@@ -31,7 +31,7 @@ Python, pdfplumber, fastembed (BAAI/bge-small-en-v1.5), local Qdrant, BM25, cros
 
 ## Test set
 
-30 hand-written questions, checked against the PDF text, never changed after writing:
+30 hand-written questions, checked against the PDF text, Gold answers were corrected once, after the first runs: C04's gold answer, W05's gold, and the gold chunks for P01-P03. Three questions were also moved to registry-only. Nothing was changed after the final runs.
 
 | Type | Count |
 |---|---|
@@ -190,7 +190,9 @@ python src/build_index.py
 
 python src/eval_retriever.py --state full
 python src/eval_retriever.py --state full --all       # status filter OFF
-python src/eval_rag.py --no-judge
+python src/eval_rag.py --state full --k 5 --no-judge
+python src/eval_rag.py --state full --k 5 --all --no-judge   # status filter OFF
+python src/eval_rag.py --state full --k 10                   # judged run (uses LLM tokens)
 python src/eval_updates.py
 python src/eval_safety.py
 python src/eval_ops.py
@@ -213,6 +215,8 @@ Interactive docs: http://127.0.0.1:8000/docs
 | `POST /ask` | Question + optional `as_of` date (`YYYY-MM-DD`). Returns a cited answer from the rules that applied on that date, or "Not found in the loaded documents." |
 | `POST /upload` | Upload a new circular (PDF) with optional `doc_type`, `issue_date`, `effective_date`. It is saved as `pending_review` (`approved: false`) and is not used for answers until a human approves it and the index is rebuilt. |
 | `GET /health` | Shows the API is up and how many documents are loaded. |
+
+Note: `/upload` registers a new circular as `pending_review` and keeps it out of answers. Approval (`approved: true` in the registry) and the index rebuild are still manual steps. Automatic ingestion is not built.
 
 Ask a question:
 
